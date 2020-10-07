@@ -1,0 +1,16 @@
+{
+    "name": "igor/mos",
+    "authors": [
+        {
+            "name": "indy1965",
+            "email": "dr.indy1965@yandex.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "engine",
+            "Cms\\": "cms"
+        }
+    }
+}
