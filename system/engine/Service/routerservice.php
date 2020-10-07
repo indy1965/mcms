@@ -4,7 +4,7 @@
 namespace Engine\service;
 
 use Engine\Core\Router\Router;
-use Engine\Core\Abstract_class\AbstractService;
+use Engine\Core\Classes\AbstractService;
 
 class RouterService extends  AbstractService
 {

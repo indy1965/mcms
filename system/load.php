@@ -8,7 +8,7 @@ try{
 //    dependency injection
     $di = new DI();
 
-    $services = require (__DIR__ . '/service/config-service.php');
+    $services = require (__DIR__ . '/engine/service/config.php');
 
     foreach ($services as $serv){
         $sr = new $serv($di);

@@ -9,8 +9,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Engine\\": "engine",
-            "Cms\\": "cms"
+            "Engine\\": "system/engine",
+            "Cms\\": "system/cms"
         }
     }
 }

@@ -4,7 +4,7 @@
 namespace Cms\Controller;
 
 
-use Engine\Core\Abstract_class\AbstractController;
+use Engine\Core\Classes\AbstractController;
 
 class CmsController extends AbstractController
 {

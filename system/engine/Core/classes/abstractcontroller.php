@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Engine\Core\Abstract_class;
+namespace Engine\Core\Classes;
 
 use Engine\DI;
 

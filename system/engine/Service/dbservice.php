@@ -4,7 +4,7 @@
 namespace Engine\Service;
 
 use Engine\Core\Connection;
-use Engine\Core\Abstract_class\AbstractService;
+use Engine\Core\Classes\AbstractService;
 
 class DBService extends  AbstractService
 {

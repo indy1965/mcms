@@ -27,7 +27,7 @@ class Cms
     public function run(){
       try{
         // Подключаем роуты
-        require_once( WUO_ROOT . '/cms/Route.php');
+        require_once( WUO_ROOT . '/system/cms/Route.php');
 
         $routeDispatch = $this->router->dispatch(Common::getMethod(), Common::getPathUri());
 
