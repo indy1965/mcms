@@ -1,6 +1,6 @@
 <?php
 
-require_once(__DIR__ . '/vendor/autoload.php');
+require_once(WUO_ROOT . '/vendor/autoload.php');
 
 use Engine\{DI, Cms};
 

@@ -10,7 +10,8 @@
     "autoload": {
         "psr-4": {
             "Engine\\": "system/engine",
-            "Cms\\": "system/cms"
+            "Cms\\": "system/cms",
+            "Admin\\": "../Admin"
         }
     }
 }

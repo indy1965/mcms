@@ -1,10 +1,10 @@
 <?php
 /**
- * index file root
+ * index admin panel
  */
-define('WUO_ROOT', dirname(__FILE__));
+define('WUO_ROOT', dirname(dirname(__FILE__)));
 define('THEME_DIR', WUO_ROOT . '/content/themes' );
-define('ENV', 'Cms');
+define('ENV', 'Admin');
 
 require_once(WUO_ROOT . '/config.php');
 require_once(WUO_ROOT . '/system/load.php');

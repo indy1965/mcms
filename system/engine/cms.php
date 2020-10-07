@@ -27,7 +27,14 @@ class Cms
     public function run(){
       try{
         // Подключаем роуты
-        require_once( WUO_ROOT . '/system/cms/Route.php');
+        $dirRout =  __DIR__ . '/../' . ENV;
+
+        if( ENV === 'Admin') {
+          $dirRout = WUO_ROOT . '/' . ENV;
+        }
+
+        require_once($dirRout . '/Route.php');
+
 
         $routeDispatch = $this->router->dispatch(Common::getMethod(), Common::getPathUri());
 
@@ -37,7 +44,8 @@ class Cms
 
         list($class, $action)  = explode(':', $routeDispatch->getController(), 2);
 
-        $controller = '\\Cms\\Controller\\' . $class;
+        $controller = '\\' . ENV . '\\Controller\\' . $class;
+
         $parameters = $routeDispatch->getParameters();
         call_user_func_array([new $controller($this->di), $action], $parameters);
       }

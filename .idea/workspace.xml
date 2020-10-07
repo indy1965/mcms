@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0074cf-39b5-4a31-b3e8-da89b6732953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/default/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/default/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/engine/template/theme.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/controller/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/controller/DashboardController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/controller/ErrorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/controller/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/controller/PageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/controller/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/controller/SettingController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/mos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/default/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/default/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/cms/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/cms/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/cms/view/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/template/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/engine/Core/classes/abstractcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Core/classes/abstractcontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/engine/Service/viewservice.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Service/viewservice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/cms.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/cms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/load.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/load.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/vendor/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/vendor/composer/ClassLoader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/vendor/composer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/vendor/composer/autoload_classmap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/vendor/composer/autoload_namespaces.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/vendor/composer/autoload_psr4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/vendor/composer/autoload_real.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/vendor/composer/autoload_static.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/vendor/composer/installed.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,20 +43,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1iNKQK1XLwLgUwp3DcJDw0DcRdJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\mos\admin\controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\mos\system\engine" />
+      <recent name="D:\OSPanel\domains\mos\system" />
       <recent name="D:\OSPanel\domains\mos" />
       <recent name="D:\OSPanel\domains\mos\admin" />
-      <recent name="D:\OSPanel\domains\mos\system" />
       <recent name="D:\OSPanel\domains\mos\system\engine\Helper" />
-      <recent name="D:\OSPanel\domains\mos\system\engine\template" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,7 +93,7 @@
       <workItem from="1601742593565" duration="4055000" />
       <workItem from="1601747518750" duration="14921000" />
       <workItem from="1601839054124" duration="437000" />
-      <workItem from="1601840058043" duration="38086000" />
+      <workItem from="1601840058043" duration="42554000" />
     </task>
     <servers />
   </component>
