@@ -3,7 +3,7 @@
 namespace Engine\service;
 
 use Engine\Core\Classes\AbstractService;
-use Cms\View\View;
+use Engine\Template\View;
 
 class ViewService extends  AbstractService
 {

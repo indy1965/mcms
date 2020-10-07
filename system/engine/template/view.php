@@ -1,25 +1,33 @@
 <?php
 
-namespace Cms\View;
+namespace Engine\Template ;
+
+use Engine\Template\Theme;
 /**
  *
  */
-class View{
-  public function __construct(){
+class View
+{
+  protected $theme;
 
+  public function __construct(){
+    $this->theme = new Theme();
   }
 
   /**
-   *
+   * @param       $template
+   * @param array $vars
+   * @throws \Exception
    */
   public function render($template, $vars = []){
 
-    $templateFile = WUO_ROOT . '/content/themes/default/' . $template . '.php';
+    $templateFile = THEME_DIR . '/default/' . $template . '.php';
 
     if(!is_file($templateFile)){
       throw new \InvalidArgumentException(sprintf('Template "%s" not found',$templateFile));
     }
 
+    $this->theme->setData($vars);
     extract($vars);
 
     ob_start(); // Включаем буферизацию.
