@@ -9,7 +9,7 @@ class HomeController extends CmsController
    *
    */
   public function index(){
-    echo 'Index Page';
+    $this->di->get('view')->render('index');
   }
 
   /**
