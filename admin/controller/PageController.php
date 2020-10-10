@@ -4,7 +4,7 @@
 namespace Admin\Controller;
 
 
-class PageController
+class PageController extends AdminController
 {
 
 }

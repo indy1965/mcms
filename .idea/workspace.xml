@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0074cf-39b5-4a31-b3e8-da89b6732953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/Route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/controller/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/controller/DashboardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/controller/ErrorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/controller/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/controller/PageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/controller/PostController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/controller/SettingController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controller/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controller/ErrorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/ErrorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controller/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controller/SettingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/SettingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/Core/Router/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Core/Router/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/engine/cms.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/cms.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/load.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/load.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/vendor/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/vendor/composer/ClassLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/vendor/composer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/vendor/composer/autoload_classmap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/vendor/composer/autoload_namespaces.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/vendor/composer/autoload_psr4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/vendor/composer/autoload_real.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/vendor/composer/autoload_static.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/vendor/composer/installed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/template/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/template/view.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\mos\admin" />
       <recent name="D:\OSPanel\domains\mos\admin\controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -93,7 +80,8 @@
       <workItem from="1601742593565" duration="4055000" />
       <workItem from="1601747518750" duration="14921000" />
       <workItem from="1601839054124" duration="437000" />
-      <workItem from="1601840058043" duration="42554000" />
+      <workItem from="1601840058043" duration="43614000" />
+      <workItem from="1602313567113" duration="878000" />
     </task>
     <servers />
   </component>
@@ -105,7 +93,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

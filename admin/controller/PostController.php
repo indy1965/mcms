@@ -4,7 +4,7 @@
 namespace Admin\Controller;
 
 
-class PostController
+class PostController extends AdminController
 {
 
 }

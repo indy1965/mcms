@@ -21,7 +21,7 @@ class View
    */
   public function render($template, $vars = []){
 
-    $templateFile = THEME_DIR . '/default/' . $template . '.php';
+    $templateFile = $this->getTemplatePath($template, ENV);
 
     if(!is_file($templateFile)){
       throw new \InvalidArgumentException(sprintf('Template "%s" not found',$templateFile));
@@ -43,5 +43,20 @@ class View
     }
 
     echo ob_get_clean(); // выводим содержибое буфера и очищаем буфер.
+  }
+
+  private function getTemplatePath($template, $env = ''){
+
+    switch ($env) {
+      case 'Admin':
+        return WUO_ROOT . '/admin/view/' . $template . '.php';
+
+      case 'Cms':
+        return WUO_ROOT . '/content/themes/default/' . $template . '.php';
+
+      default:
+        return WUO_ROOT . '/' . mb_strtolower($env) . '/view/' . $template . '.php';
+        break;
+    }
   }
 }

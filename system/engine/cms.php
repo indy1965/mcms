@@ -35,10 +35,9 @@ class Cms
 
         require_once($dirRout . '/Route.php');
 
-
         $routeDispatch = $this->router->dispatch(Common::getMethod(), Common::getPathUri());
 
-        if($routeDispatch == null){
+        if($routeDispatch === null){
           $routeDispatch = new DispatchedRoute('ErrorController:page404');
         }
 

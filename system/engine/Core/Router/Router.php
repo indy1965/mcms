@@ -51,6 +51,7 @@ class Router
         $this->dispatcher->register($route['method'], $route['pattern'], $route['controller']);
       }
     }
+
     return $this->dispatcher;
   }
 }
