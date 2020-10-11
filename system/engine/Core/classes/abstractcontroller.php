@@ -19,5 +19,6 @@ abstract class AbstractController
   {
     $this->di = $di;
     $this->view = $this->di->get('view');
+    $this->db = $this->di->get('db');
   }
 }

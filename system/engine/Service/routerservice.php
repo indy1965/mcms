@@ -3,8 +3,9 @@
 
 namespace Engine\service;
 
-use Engine\Core\Router\Router;
+use Engine\Core\router\Router;
 use Engine\Core\Classes\AbstractService;
+use Engine\Helper\Common;
 
 class RouterService extends  AbstractService
 {
@@ -15,7 +16,7 @@ class RouterService extends  AbstractService
    */
   public function init()
   {
-    $router = new Router('http://mos/');
+    $router = new Router(Common::getHostUri());
     $this->di->set($this->serviceName,$router);
   }
 }

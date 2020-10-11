@@ -27,13 +27,7 @@ class Cms
     public function run(){
       try{
         // Подключаем роуты
-        $dirRout =  __DIR__ . '/../' . ENV;
-
-        if( ENV === 'Admin') {
-          $dirRout = WUO_ROOT . '/' . ENV;
-        }
-
-        require_once($dirRout . '/Route.php');
+        require_once(ENV_DIR . '/Route.php');
 
         $routeDispatch = $this->router->dispatch(Common::getMethod(), Common::getPathUri());
 

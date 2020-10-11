@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Engine\Core\Router;
+namespace Engine\Core\router;
 
 class UriDispatcher
 {

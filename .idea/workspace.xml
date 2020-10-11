@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c0074cf-39b5-4a31-b3e8-da89b6732953" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/config/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/engine/Core/auth/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/engine/Core/auth/interfaceAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/engine/Core/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/engine/Core/database/querybuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/engine/Core/request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/engine/Helper/cookie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/engine/Service/configservice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/controller/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/controller/ErrorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/ErrorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/AdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/controller/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/controller/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/PageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/controller/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/controller/SettingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/controller/SettingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/engine/Core/Router/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Core/Router/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/Core/Router/DispatchedRoute.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Core/router/DispatchedRoute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/Core/Router/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Core/router/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/Core/Router/UriDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Core/router/UriDispatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/Core/classes/abstractcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Core/classes/abstractcontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/Core/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Core/database/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/Helper/common.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Helper/common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/Service/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Service/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/Service/dbservice.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Service/dbservice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/Service/routerservice.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Service/routerservice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/engine/Service/viewservice.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/Service/viewservice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/engine/cms.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/cms.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/engine/template/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/engine/template/view.php" afterDir="false" />
     </list>
@@ -43,16 +61,16 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OSPanel\domains\mos\admin" />
-      <recent name="D:\OSPanel\domains\mos\admin\controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\mos\system\engine\Core\database" />
+      <recent name="D:\OSPanel\domains\mos\system\engine\Core\Auth" />
       <recent name="D:\OSPanel\domains\mos\system\engine" />
       <recent name="D:\OSPanel\domains\mos\system" />
       <recent name="D:\OSPanel\domains\mos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OSPanel\domains\mos\admin" />
-      <recent name="D:\OSPanel\domains\mos\system\engine\Helper" />
+      <recent name="D:\OSPanel\domains\mos\admin\controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -81,7 +99,7 @@
       <workItem from="1601747518750" duration="14921000" />
       <workItem from="1601839054124" duration="437000" />
       <workItem from="1601840058043" duration="43614000" />
-      <workItem from="1602313567113" duration="878000" />
+      <workItem from="1602313567113" duration="31064000" />
     </task>
     <servers />
   </component>

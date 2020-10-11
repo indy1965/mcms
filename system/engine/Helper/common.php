@@ -31,4 +31,8 @@ class Common
 
     return $pathUri;
   }
+
+  static public function getHostUri(){
+    return  ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
+  }
 }

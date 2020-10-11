@@ -1,6 +1,6 @@
 <?php
 
-namespace Engine\Core;
+namespace Engine\Core\Database;
 
 use \PDO;
 
@@ -16,15 +16,18 @@ class Connection
         $this->connect($host, $dbname, $charset, $username, $pass);
     }
 
-    /**
-     * @return $this
-     */
+  /**
+   * @return $this
+   * @throws \Exception
+   */
     private function connect($host, $dbname, $charset, $username, $pass){
 
-        $dsn = sprintf("mysql:host:%s;dbname:%s;charset:%s", $host, $dbname, $charset);
-
+        $dsn = sprintf('mysql:host=%s;dbname=%s;charset=%s', $host, $dbname, $charset);
+      try {
         $this->link = new PDO($dsn, $username, $pass);
-
+      }catch (PDOException $e) {
+        throw new \Exception('$e->getMessage()');
+      }
         return $this;
     }
 
@@ -32,21 +35,25 @@ class Connection
      * @param $sql
      * @return mixed
      */
-    public function execute($sql){
+    public function execute($sql, $values = []){
         $sth = $this->link->prepare($sql);
-        return $sth->execute();
+        return $sth->execute($values);
     }
 
-    /**
-     * @param $sql
-     * @return array|TYPE_NAME
-     */
-    public function query($sql){
+  /**
+   * @param $sql
+   * @return array|TYPE_NAME
+   * @throws \Exception
+   */
+    public function query($sql, $values = []){
+      try {
         $sth = $this->link->prepare($sql);
-        $sth->execute();
+        $sth->execute($values);
         $result = $sth->fetchAll(PDO::FETCH_ASSOC);
-
         /** @var TYPE_NAME $result */
-        return ($result === false)? [] : $result;
+        return ($result === false) ? [] : $result;
+      }catch (PDOException $e) {
+        throw new \Exception('$e->getMessage()');
+      }
     }
 }

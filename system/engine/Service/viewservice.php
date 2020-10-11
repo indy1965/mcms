@@ -14,7 +14,6 @@ class ViewService extends  AbstractService
    */
   public function init()
   {
-    $view = new View();
-    $this->di->set($this->serviceName,$view);
+    $this->di->set($this->serviceName,new View());
   }
 }

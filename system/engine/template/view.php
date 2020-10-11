@@ -52,10 +52,10 @@ class View
         return WUO_ROOT . '/admin/view/' . $template . '.php';
 
       case 'Cms':
-        return WUO_ROOT . '/content/themes/default/' . $template . '.php';
+        return THEME_DIR . '/default/' . $template . '.php';
 
       default:
-        return WUO_ROOT . '/' . mb_strtolower($env) . '/view/' . $template . '.php';
+        return SYS_DIR . '/' . mb_strtolower($env) . '/view/' . $template . '.php';
         break;
     }
   }
